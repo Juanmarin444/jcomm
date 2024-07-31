@@ -1,5 +1,5 @@
 import React from 'react';
-import UserIcon from './icons/UserIcon.jsx';
+// import UserIcon from './icons/UserIcon.jsx';
 import CartIcon from './icons/CartIcon.jsx';
 import { Link } from 'react-router-dom';
 

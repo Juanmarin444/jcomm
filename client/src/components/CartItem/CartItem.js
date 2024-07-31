@@ -1,7 +1,7 @@
 import './CartItem.css';
 import { Link } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-import { useState } from 'react';
+// import { useState } from 'react';
 
 //actions
 import {removeFromCartAction} from '../../redux/actions/cartActions';

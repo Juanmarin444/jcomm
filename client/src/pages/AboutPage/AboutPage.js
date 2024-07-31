@@ -2,7 +2,7 @@ import './AboutPage.css'
 
 // Components
 import SubHeader from '../../components/SubHeader/SubHeader'
-import About from '../HomePage/about/About'
+// import About from '../HomePage/about/About'
 
 const AboutPage = () => {
 

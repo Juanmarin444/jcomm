@@ -8,6 +8,7 @@ controllers.getProducts = async (req, res) => {
     const products = await productSchema.find({});
 
     if (products) {
+      // console.log("PRODUCTS", products)
       return res.status(200).json(products);
     }
 
