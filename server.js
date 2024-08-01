@@ -5,6 +5,14 @@ const path = require("path");
 
 const app = express();
 
+app.use(cors(
+  {
+    origin: process.env.REACT_APP_FRONT_END,
+    methods: ["POST", "GET"],
+    credentials: true
+  }
+));
+
 // Routers
 const productRouter = require('./routes/productRoutes.js');
 
